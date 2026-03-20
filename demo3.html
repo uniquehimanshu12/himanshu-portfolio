@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Landing Page Demo</title>
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{
+  font-family:'Poppins',sans-serif;
+  background:#020617;
+  color:white;
+}
+
+/* HERO */
+header{
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  background:linear-gradient(120deg,#020617,#0f172a);
+}
+
+h1{
+  font-size:60px;
+  max-width:900px;
+  background:linear-gradient(90deg,#22c55e,#60a5fa);
+  -webkit-background-clip:text;
+  color:transparent;
+}
+
+p{
+  margin-top:15px;
+  color:#94a3b8;
+  font-size:18px;
+}
+
+.btn{
+  margin-top:25px;
+  padding:15px 30px;
+  background:#22c55e;
+  color:black;
+  border-radius:10px;
+  text-decoration:none;
+  font-weight:bold;
+  transition:0.3s;
+}
+
+.btn:hover{
+  transform:scale(1.1);
+}
+
+/* SECTION */
+section{
+  padding:80px 20px;
+  text-align:center;
+}
+
+h2{
+  font-size:40px;
+  margin-bottom:20px;
+}
+
+/* GRID */
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:30px;
+  margin-top:40px;
+}
+
+/* CARD */
+.card{
+  background:#0f172a;
+  padding:30px;
+  border-radius:15px;
+  transition:0.4s;
+}
+
+.card:hover{
+  transform:translateY(-10px);
+  box-shadow:0 0 30px rgba(34,197,94,0.4);
+}
+
+/* STATS */
+.stats{
+  display:flex;
+  justify-content:center;
+  gap:40px;
+  flex-wrap:wrap;
+  margin-top:40px;
+}
+
+.stat{
+  font-size:30px;
+  font-weight:bold;
+}
+
+/* TESTIMONIAL */
+.review{
+  background:#1e293b;
+  padding:20px;
+  border-radius:10px;
+}
+
+/* FINAL CTA */
+.cta{
+  background:linear-gradient(90deg,#22c55e,#60a5fa);
+  color:black;
+  padding:60px 20px;
+  border-radius:20px;
+}
+
+footer{
+  padding:40px;
+  text-align:center;
+  color:#64748b;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+  <h1>Get More Clients With a High-Converting Website 🚀</h1>
+  <p>We design websites that turn visitors into paying customers</p>
+  <a href="#" class="btn">Start Now</a>
+</header>
+
+<section>
+  <h2>Problems We Solve</h2>
+
+  <div class="grid">
+    <div class="card">❌ No website = no clients</div>
+    <div class="card">❌ Poor design = no trust</div>
+    <div class="card">❌ Slow site = lost users</div>
+  </div>
+</section>
+
+<section>
+  <h2>Our Solution</h2>
+
+  <div class="grid">
+    <div class="card">⚡ Fast & modern websites</div>
+    <div class="card">🎯 Designed to convert</div>
+    <div class="card">📱 Mobile optimized</div>
+  </div>
+</section>
+
+<section>
+  <h2>Results</h2>
+
+  <div class="stats">
+    <div class="stat">🚀 300% Growth</div>
+    <div class="stat">💼 50+ Clients</div>
+    <div class="stat">⭐ 5 Star Rating</div>
+  </div>
+</section>
+
+<section>
+  <h2>What Clients Say</h2>
+
+  <div class="grid">
+    <div class="review">🔥 "Got 3x more leads after website!"</div>
+    <div class="review">⭐ "Best investment for my business"</div>
+    <div class="review">🚀 "Looks like a premium brand now"</div>
+  </div>
+</section>
+
+<section>
+  <div class="cta">
+    <h2>Ready to grow your business?</h2>
+    <p>Let’s build your website today</p>
+    <a href="#" class="btn">Contact Now</a>
+  </div>
+</section>
+
+<footer>
+  <p>© Landing Page Demo | Designed by Himanshu</p>
+</footer>
+
+</body>
+</html>

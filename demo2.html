@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Portfolio Demo</title>
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{
+  font-family:'Poppins',sans-serif;
+  background:#020617;
+  color:white;
+}
+
+/* HERO */
+header{
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+  text-align:center;
+  background:linear-gradient(120deg,#0f172a,#020617);
+}
+
+h1{
+  font-size:60px;
+  background:linear-gradient(90deg,#22c55e,#60a5fa);
+  -webkit-background-clip:text;
+  color:transparent;
+}
+
+p{margin-top:10px;color:#94a3b8}
+
+/* GRID */
+section{padding:80px 20px}
+
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:30px;
+}
+
+/* CARD */
+.card{
+  background:#0f172a;
+  padding:20px;
+  border-radius:15px;
+  transition:0.4s;
+  overflow:hidden;
+}
+
+.card:hover{
+  transform:translateY(-10px) scale(1.02);
+  box-shadow:0 0 30px rgba(96,165,250,0.4);
+}
+
+/* IMAGE */
+.card img{
+  width:100%;
+  border-radius:10px;
+  margin-bottom:15px;
+  transition:0.4s;
+}
+
+.card:hover img{
+  transform:scale(1.08);
+}
+
+/* BUTTON */
+.btn{
+  display:inline-block;
+  margin-top:10px;
+  padding:10px 20px;
+  background:#22c55e;
+  color:black;
+  text-decoration:none;
+  border-radius:8px;
+}
+
+/* SKILLS */
+.skills{
+  display:flex;
+  justify-content:center;
+  gap:20px;
+  flex-wrap:wrap;
+  margin-top:20px;
+}
+
+.skill{
+  padding:10px 20px;
+  background:#1e293b;
+  border-radius:8px;
+  transition:0.3s;
+}
+
+.skill:hover{
+  background:#22c55e;
+  color:black;
+}
+
+/* FOOTER */
+footer{
+  padding:40px;
+  text-align:center;
+  color:#64748b;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+  <h1>Creative Portfolio</h1>
+  <p>Designing modern experiences that stand out</p>
+</header>
+
+<section>
+  <h2 style="text-align:center;margin-bottom:30px;">My Projects</h2>
+
+  <div class="grid">
+
+```
+<div class="card">
+  <img src="https://images.unsplash.com/photo-1492724441997-5dc865305da7">
+  <h3>Startup Website</h3>
+  <p>Modern UI for startup growth</p>
+  <a href="#" class="btn">View</a>
+</div>
+
+<div class="card">
+  <img src="https://images.unsplash.com/photo-1559027615-cd4628902d4a">
+  <h3>Portfolio Design</h3>
+  <p>Clean & minimal personal brand</p>
+  <a href="#" class="btn">View</a>
+</div>
+
+<div class="card">
+  <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71">
+  <h3>Landing Page</h3>
+  <p>High converting page design</p>
+  <a href="#" class="btn">View</a>
+</div>
+```
+
+  </div>
+</section>
+
+<section>
+  <h2 style="text-align:center;">Skills</h2>
+
+  <div class="skills">
+    <div class="skill">HTML</div>
+    <div class="skill">CSS</div>
+    <div class="skill">UI Design</div>
+    <div class="skill">AI Website Builder</div>
+  </div>
+</section>
+
+<footer>
+  <p>© Portfolio Demo | Designed by Himanshu</p>
+</footer>
+
+</body>
+</html>

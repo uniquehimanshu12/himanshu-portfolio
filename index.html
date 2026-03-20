@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Himanshu | Elite Web Designer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box}
+    body{font-family:'Poppins',sans-serif;background:#020617;color:#fff}
+
+    nav{position:fixed;top:0;width:100%;padding:20px 40px;display:flex;justify-content:space-between;align-items:center;background:rgba(0,0,0,0.6);backdrop-filter:blur(10px);z-index:1000}
+    nav h3{color:#22c55e}
+
+    header{height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;background:url('https://images.unsplash.com/photo-1498050108023-c5249f4df085') center/cover no-repeat;position:relative}
+    header::before{content:'';position:absolute;inset:0;background:rgba(0,0,0,0.75)}
+    header *{position:relative}
+
+    h1{font-size:60px;max-width:900px}
+    .gradient{background:linear-gradient(90deg,#22c55e,#60a5fa);-webkit-background-clip:text;color:transparent}
+
+    .btn{padding:14px 30px;background:#22c55e;color:#000;border-radius:10px;text-decoration:none;font-weight:bold;display:inline-block;margin-top:20px}
+
+    section{padding:120px 20px;text-align:center}
+    h2{font-size:40px;margin-bottom:20px}
+
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:30px;margin-top:40px}
+
+    .card{background:rgba(255,255,255,0.05);padding:30px;border-radius:15px;transition:0.3s}
+    .card:hover{transform:translateY(-10px);box-shadow:0 0 20px rgba(34,197,94,0.5)}
+
+    .card img{width:100%;border-radius:10px;margin-bottom:15px;transition:0.4s}
+    .card:hover img{transform:scale(1.05)}
+
+    .price-card{border:2px solid #22c55e}
+
+    .stats{display:flex;justify-content:center;gap:40px;flex-wrap:wrap;margin-top:40px}
+    .stat{font-size:28px;font-weight:bold}
+
+    input,textarea{width:100%;padding:12px;margin:10px 0;border:none;border-radius:8px}
+
+    footer{padding:40px;text-align:center;color:#64748b}
+  
+    /* 🔥 NEW PREMIUM ADDITIONS */
+    .highlight{color:#22c55e;font-weight:bold}
+
+    .cta-banner{
+      background:linear-gradient(90deg,#22c55e,#60a5fa);
+      color:#000;
+      padding:60px 20px;
+      border-radius:20px;
+      margin:40px;
+      text-align:center;
+    }
+
+    .cta-banner h2{margin-bottom:10px}
+
+    .floating-btn{
+      position:fixed;
+      bottom:20px;
+      right:20px;
+      background:#25D366;
+      color:#fff;
+      padding:15px 20px;
+      border-radius:50px;
+      text-decoration:none;
+      font-weight:bold;
+      box-shadow:0 0 15px rgba(0,0,0,0.4);
+    }
+
+    .badge{
+      display:inline-block;
+      background:#22c55e;
+      color:#000;
+      padding:5px 10px;
+      border-radius:8px;
+      font-size:12px;
+      margin-bottom:10px;
+    }
+
+  </style>
+</head>
+
+<body>
+
+<nav>
+  <h3>Himanshu.dev</h3>
+  <a href="#contact" class="btn">Hire Me</a>
+</nav>
+
+<header>
+  <h1 class="gradient">I build websites that make your business look premium & get more clients</h1>
+  <p>Modern • Fast • High-Converting Websites</p>
+  <a href="#contact" class="btn">🚀 Get Your Website</a>
+</header>
+
+<!-- TRUST STATS -->
+<section>
+  <h2>Results</h2>
+  <div class="stats">
+    <div class="stat">🚀 25+ Projects</div>
+    <div class="stat">💼 15+ Clients</div>
+    <div class="stat">⭐ 5 Star Reviews</div>
+  </div>
+</section>
+
+<!-- ABOUT ME -->
+<section>
+  <h2>About Me</h2>
+  <p style="max-width:800px;margin:auto;margin-top:20px;line-height:1.7;">
+    Hi, I'm <strong>Himanshu</strong> — a passionate web designer who creates modern, high-converting websites using the power of AI and design. 
+    I help businesses and individuals build a strong online presence that looks premium and attracts more clients.
+    <br><br>
+    I focus on clean design, smooth animations, and smart structure so your website not only looks good but also performs.
+  </p>
+</section>
+
+<!-- WHY CHOOSE ME -->
+<section>
+  <h2>Why Choose Me</h2>
+  <div class="grid">
+    <div class="card">⚡ Fast Delivery</div>
+    <div class="card">🎯 Client-Focused Design</div>
+    <div class="card">💡 Modern & Creative Ideas</div>
+    <div class="card">📱 Fully Responsive</div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section>
+  <h2>Services</h2>
+  <div class="grid">
+    <div class="card"><span class="badge">Popular</span><br>💻 Business Websites</div>
+    <div class="card">🎨 Portfolio Websites</div>
+    <div class="card">🚀 Landing Pages</div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section>
+  <h2>My Process</h2>
+  <div class="grid">
+    <div class="card">1️⃣ Discuss your idea</div>
+    <div class="card">2️⃣ Design & build</div>
+    <div class="card">3️⃣ Launch & support</div>
+  </div>
+</section>
+
+<!-- WORK -->
+<section>
+  <h2>My Work (Live Projects)</h2>
+  <div class="grid">
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f">
+      <h3>Business Website</h3>
+      <a href="demo1.html" target="_blank" class="btn">View Live</a>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1559027615-cd4628902d4a">
+      <h3>Portfolio Website</h3>
+      <a href="demo2.html" target="_blank" class="btn">View Live</a>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71">
+      <h3>Landing Page</h3>
+      <a href="demo3.html" target="_blank" class="btn">View Live</a>
+    </div>
+
+  </div>
+</section>
+
+<!-- PRICING -->
+<section>
+  <h2>Pricing</h2>
+  <div class="grid">
+    <div class="card price-card">
+      <h3>Basic</h3>
+      <p>₹10,000</p>
+      <p>Simple Website</p>
+    </div>
+
+    <div class="card price-card">
+      <h3>Advanced</h3>
+      <p>₹50,000</p>
+      <p>Premium Website</p>
+    </div>
+  </div>
+  <p>⚠️ Pricing may vary. Contact for exact quote.</p>
+</section>
+
+<!-- REVIEWS -->
+<section>
+  <h2>Client Reviews</h2>
+  <div class="grid">
+    <div class="card">⭐ "Amazing work! My business looks premium now."<br>- Rahul Sharma</div>
+    <div class="card">🔥 "Got more clients after website launch."<br>- Priya Mehta</div>
+    <div class="card">💯 "Highly recommended developer."<br>- Aman Verma</div>
+    <div class="card">🚀 "Best investment for my startup."<br>- Sneha Kapoor</div>
+    <div class="card">💼 "Very professional and fast delivery."<br>- Arjun Singh</div>
+    <div class="card">⭐ "Website looks like big brand now."<br>- Neha Gupta</div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section>
+  <h2>FAQs</h2>
+  <div class="grid">
+    <div class="card">❓ How long does it take?<br>👉 2–5 days</div>
+    <div class="card">❓ Do you use AI?<br>👉 Yes, for faster & better results</div>
+    <div class="card">❓ Will my site be mobile friendly?<br>👉 100% responsive</div>
+  </div>
+</section>
+
+<!-- CTA BANNER -->
+<section>
+  <div class="cta-banner">
+    <h2>🚀 Ready to grow your business?</h2>
+    <p>Let's build a website that gets you more clients.</p>
+    <a href="#contact" class="btn">Start Your Project</a>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <h2>Contact Me</h2>
+
+  <p style="margin-bottom:20px;">
+    📧 Email me directly: <strong style="color:#22c55e;">unique.himanshu12@gmail.com</strong>
+  </p>
+
+  <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" placeholder="Tell me about your project" required></textarea>
+    <button class="btn">Send Message</button>
+  </form>
+</section>
+
+<footer>
+  <p>© 2026 Himanshu | Web Designer</p>
+</footer>
+
+<!-- FLOATING WHATSAPP BUTTON -->
+<a href="https://wa.me/91XXXXXXXXXX" target="_blank" class="floating-btn">💬 Chat</a>
+
+<script src="https://cdn.botpress.cloud/webchat/v2/inject.js"></script>
+<script>
+window.addEventListener("load",()=>{
+  if(window.botpressWebChat){
+    window.botpressWebChat.init({
+      botId:"YOUR_BOT_ID",
+      clientId:"YOUR_CLIENT_ID"
+    })
+  }
+})
+</script>
+
+</body>
+</html>
